@@ -1,0 +1,23 @@
+.table {
+  margin-top: 20px;
+  overflow-x: hidden;
+  height: 450px;
+  color: #6a5d5d;
+}
+
+.table tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
+
+.table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table td {
+  padding: 0.6rem;
+}
+
+.App {
+  scrollbar-width: none; /* Firefox */
+}
